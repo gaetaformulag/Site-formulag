@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulag</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap">
+    <link rel="icon" href="images/LogoFG.png" type="image/png">
+
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+            position: relative;
+        }
+        img.logo {
+            max-width: 50%;
+            height: auto;
+        }
+        h1 {
+            font-size: 48px;
+            color: #333;
+            margin-top: 20px;
+            text-align: center; 
+        }
+        p.contact-info {
+            position: absolute;
+            top: 20px; 
+            right: 20px; 
+            font-size: 18px;
+            color: #333;
+        }
+        
+        @media (max-width: 768px) {
+            img.logo {
+                max-width: 80%; 
+            }
+            h1 {
+                font-size: 36px; 
+                margin-top: 15px;
+            }
+            p.contact-info {
+                font-size: 16px;
+                top: 10px;
+                right: 10px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 28px;
+            }
+            p.contact-info {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <img src="images/LogoFGnobg.png" alt="Logo" class="logo">
+    <h1>Site em construção</h1>
+    <p class="contact-info">gaeta@formulag.com.br</p>
+</body>
+</html>
